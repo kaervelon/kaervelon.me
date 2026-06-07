@@ -1,0 +1,22 @@
+{
+	"$schema": "./node_modules/turbo/schema.json",
+	"tasks": {
+		"topology": {
+			"dependsOn": ["^topology"]
+		},
+		"typecheck": {
+			"dependsOn": ["topology"]
+		},
+		"//#check": {},
+		"//#check:write": {
+			"cache": false
+		},
+		"build": {
+			"dependsOn": ["^build"]
+		},
+		"dev": {
+			"cache": false,
+			"persistent": true
+		}
+	}
+}

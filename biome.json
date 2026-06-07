@@ -12,7 +12,8 @@
 	"linter": {
 		"domains": {
 			"project": "recommended",
-			"types": "recommended"
+			"types": "recommended",
+			"turborepo": "recommended"
 		}
 	}
 }

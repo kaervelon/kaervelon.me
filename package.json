@@ -4,9 +4,11 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
+		"build": "turbo run build",
 		"check": "biome check",
 		"check:write": "biome check --write",
-		"prepare": "husky"
+		"dev": "turbo run dev",
+		"typecheck": "turbo run typecheck"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.4.16",
@@ -14,7 +16,8 @@
 		"@commitlint/config-conventional": "21.0.2",
 		"@types/node": "24.12.4",
 		"husky": "9.1.7",
-		"lint-staged": "17.0.7"
+		"lint-staged": "17.0.7",
+		"turbo": "2.9.16"
 	},
 	"packageManager": "pnpm@11.5.2",
 	"engines": {
