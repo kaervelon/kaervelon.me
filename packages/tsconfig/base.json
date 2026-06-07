@@ -1,0 +1,13 @@
+{
+	"$schema": "https://www.schemastore.org/tsconfig",
+	"compilerOptions": {
+		"incremental": true,
+		"moduleDetection": "force",
+		"module": "preserve",
+		"allowJs": true,
+		"noEmit": true,
+		"verbatimModuleSyntax": true,
+		"erasableSyntaxOnly": true,
+		"skipLibCheck": true
+	}
+}
