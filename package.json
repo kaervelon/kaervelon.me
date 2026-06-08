@@ -8,6 +8,7 @@
 		"check": "biome check",
 		"check:write": "biome check --write",
 		"dev": "turbo run dev",
+		"prepare": "husky",
 		"typecheck": "turbo run typecheck"
 	},
 	"devDependencies": {

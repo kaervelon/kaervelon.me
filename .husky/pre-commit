@@ -1,1 +1,2 @@
-pnpm typecheck && lint-staged
+pnpm lint-staged
+pnpm turbo run typecheck
